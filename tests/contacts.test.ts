@@ -43,6 +43,9 @@ describe("Feature: Contacts Management", () => {
     id: "user_123",
     email: "test@example.com",
     name: "Tester",
+    emailVerified: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
   };
 
   const mockContact = {
